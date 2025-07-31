@@ -18,7 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        food: "bg-gradient-food text-white hover:bg-gradient-food/90 shadow-food",
+        himalayan: "bg-gradient-himalayan text-white hover:bg-gradient-himalayan/90 shadow-himalayan",
+        mountain: "bg-gradient-mountain text-white hover:bg-gradient-mountain/90 shadow-float",
         hero: "bg-white/10 text-white border border-white/20 hover:bg-white/20 backdrop-blur-sm",
       },
       size: {

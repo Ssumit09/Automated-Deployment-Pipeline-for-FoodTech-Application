@@ -27,6 +27,7 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))',
 					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
@@ -70,13 +71,16 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-food': 'var(--gradient-food)',
-				'gradient-subtle': 'var(--gradient-subtle)'
+				'gradient-himalayan': 'var(--gradient-himalayan)',
+				'gradient-mountain': 'var(--gradient-mountain)',
+				'gradient-subtle': 'var(--gradient-subtle)',
+				'gradient-card': 'var(--gradient-card)'
 			},
 			boxShadow: {
-				'food': 'var(--shadow-food)',
+				'himalayan': 'var(--shadow-himalayan)',
 				'card': 'var(--shadow-card)',
-				'float': 'var(--shadow-float)'
+				'float': 'var(--shadow-float)',
+				'glow': 'var(--shadow-glow)'
 			},
 			transitionTimingFunction: {
 				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',

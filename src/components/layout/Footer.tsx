@@ -9,15 +9,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-food rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
+              <div className="w-8 h-8 bg-gradient-himalayan rounded-lg flex items-center justify-center shadow-glow">
+                <span className="text-white font-bold text-lg">T</span>
               </div>
-              <span className="text-xl font-bold bg-gradient-food bg-clip-text text-transparent">
-                Swiggy
+              <span className="text-xl font-bold bg-gradient-himalayan bg-clip-text text-transparent">
+                TasteHimal
               </span>
             </div>
             <p className="text-muted-foreground text-sm">
-              India's largest food delivery platform. Order your favorite food from top restaurants near you.
+              Nepal's premier Himalayan cuisine delivery platform. Experience authentic mountain flavors from the best restaurants.
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
@@ -34,8 +34,8 @@ const Footer = () => {
               <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">About Us</Link></li>
               <li><Link to="/careers" className="text-muted-foreground hover:text-primary transition-colors">Careers</Link></li>
               <li><Link to="/team" className="text-muted-foreground hover:text-primary transition-colors">Team</Link></li>
-              <li><Link to="/swiggy-one" className="text-muted-foreground hover:text-primary transition-colors">Swiggy One</Link></li>
-              <li><Link to="/swiggy-instamart" className="text-muted-foreground hover:text-primary transition-colors">Swiggy Instamart</Link></li>
+              <li><Link to="/tastehimal-premium" className="text-muted-foreground hover:text-primary transition-colors">TasteHimal Premium</Link></li>
+              <li><Link to="/mountain-delivery" className="text-muted-foreground hover:text-primary transition-colors">Mountain Delivery</Link></li>
             </ul>
           </div>
 
@@ -64,7 +64,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Swiggy Clone. All rights reserved. Built with ❤️ in India.
+            © 2024 TasteHimal. All rights reserved. Bringing the taste of the Himalayas to your doorstep 🏔️
           </p>
         </div>
       </div>

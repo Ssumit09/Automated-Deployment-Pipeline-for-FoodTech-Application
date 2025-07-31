@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import RestaurantCard from '@/components/RestaurantCard';
 import { restaurants, categories, offers } from '@/data/mockData';
-import heroImage from '@/assets/hero-food.jpg';
+import heroImage from '@/assets/hero-himalayan.jpg';
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -27,10 +27,10 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-white animate-fade-in">
-              Hungry? We've got you covered!
+              Taste the Himalayas!
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto animate-fade-in">
-              Discover the best food & drinks from top restaurants near you
+              Discover authentic mountain cuisine & traditional flavors from the roof of the world
             </p>
             
             {/* Search Bar */}
@@ -39,7 +39,7 @@ const Home = () => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
                 <Input
                   type="text"
-                  placeholder="Search for restaurants or dishes"
+                  placeholder="Search for Himalayan cuisine or restaurants"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10 pr-4 py-3 text-base bg-white/95 backdrop-blur-sm border-none shadow-lg"
@@ -49,7 +49,7 @@ const Home = () => {
             
             <div className="flex items-center justify-center space-x-2 text-white/80">
               <MapPin className="h-4 w-4" />
-              <span className="text-sm">Delivering to Bangalore</span>
+              <span className="text-sm">Delivering across Kathmandu Valley</span>
             </div>
           </div>
         </div>
@@ -60,10 +60,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">
-              What's on your mind?
+              Explore Mountain Flavors
             </h2>
             <p className="text-muted-foreground">
-              Browse by category
+              Journey through diverse Himalayan cuisines
             </p>
           </div>
           

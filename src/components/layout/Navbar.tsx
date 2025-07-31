@@ -19,11 +19,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-food rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">S</span>
+            <div className="w-8 h-8 bg-gradient-himalayan rounded-lg flex items-center justify-center shadow-glow">
+              <span className="text-white font-bold text-lg">T</span>
             </div>
-            <span className="text-xl font-bold bg-gradient-food bg-clip-text text-transparent">
-              Swiggy
+            <span className="text-xl font-bold bg-gradient-himalayan bg-clip-text text-transparent">
+              TasteHimal
             </span>
           </Link>
 
@@ -31,8 +31,8 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-2 text-muted-foreground">
             <MapPin className="h-4 w-4" />
             <div className="flex flex-col">
-              <span className="text-sm font-medium text-foreground">Bangalore</span>
-              <span className="text-xs">Karnataka, India</span>
+              <span className="text-sm font-medium text-foreground">Kathmandu</span>
+              <span className="text-xs">Nepal</span>
             </div>
           </div>
 
@@ -100,8 +100,8 @@ const Navbar = () => {
               <div className="flex items-center space-x-2 text-muted-foreground px-2">
                 <MapPin className="h-4 w-4" />
                 <div>
-                  <div className="text-sm font-medium text-foreground">Bangalore</div>
-                  <div className="text-xs">Karnataka, India</div>
+                  <div className="text-sm font-medium text-foreground">Kathmandu</div>
+                  <div className="text-xs">Nepal</div>
                 </div>
               </div>
               

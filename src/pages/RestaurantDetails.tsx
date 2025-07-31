@@ -156,7 +156,7 @@ const RestaurantDetails = () => {
                                   
                                   <Button
                                     onClick={() => handleAddToCart(item)}
-                                    className="bg-gradient-food hover:bg-gradient-food/90"
+                                    className="bg-gradient-himalayan hover:bg-gradient-himalayan/90"
                                   >
                                     <Plus className="h-4 w-4 mr-1" />
                                     Add to Cart

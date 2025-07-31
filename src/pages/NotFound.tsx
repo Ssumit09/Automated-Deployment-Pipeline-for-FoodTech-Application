@@ -27,7 +27,7 @@ const NotFound = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link to="/">
-            <Button variant="food" size="lg">
+            <Button variant="himalayan" size="lg">
               <Home className="h-4 w-4 mr-2" />
               Back to Home
             </Button>

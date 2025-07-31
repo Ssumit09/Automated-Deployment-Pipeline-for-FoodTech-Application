@@ -25,7 +25,7 @@ const Cart = () => {
               Add some delicious food items to get started
             </p>
             <Link to="/restaurants">
-              <Button className="bg-gradient-food hover:bg-gradient-food/90">
+              <Button className="bg-gradient-himalayan hover:bg-gradient-himalayan/90">
                 Browse Restaurants
               </Button>
             </Link>
@@ -163,7 +163,7 @@ const Cart = () => {
                 )}
                 
                 <div className="space-y-3 pt-4">
-                  <Button className="w-full bg-gradient-food hover:bg-gradient-food/90" size="lg">
+                  <Button className="w-full bg-gradient-himalayan hover:bg-gradient-himalayan/90" size="lg">
                     Proceed to Checkout
                   </Button>
                   

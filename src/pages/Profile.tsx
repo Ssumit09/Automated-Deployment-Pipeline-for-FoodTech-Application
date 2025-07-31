@@ -18,7 +18,7 @@ const Profile = () => {
           <CardContent className="p-6">
             <div className="flex items-center space-x-6">
               <Avatar className="w-20 h-20">
-                <AvatarFallback className="text-2xl font-semibold bg-gradient-food text-white">
+                <AvatarFallback className="text-2xl font-semibold bg-gradient-himalayan text-white">
                   {user.name.split(' ').map(n => n[0]).join('')}
                 </AvatarFallback>
               </Avatar>
@@ -111,7 +111,7 @@ const Profile = () => {
                 <h2 className="text-xl font-semibold text-foreground">
                   Saved Addresses
                 </h2>
-                <Button className="bg-gradient-food hover:bg-gradient-food/90">
+                <Button className="bg-gradient-himalayan hover:bg-gradient-himalayan/90">
                   Add New Address
                 </Button>
               </div>
